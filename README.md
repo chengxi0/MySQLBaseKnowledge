@@ -1,0 +1,2 @@
+# MySQLBaseKnowledge
+MySQL数据库系统管理的一些基本知识
