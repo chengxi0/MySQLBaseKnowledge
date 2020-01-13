@@ -85,6 +85,9 @@ mod(a,b) ---> 是通过这样去计算的 a - a / b * b
 SELECT MOD(-10,3);
 SELECT MOD(-10,-3);
 
+#6 rand 随机数
+SELECT ROUND(RAND()* 100,0) ;
+
 #三 日期函数
 #1 now 返回当前系统日期和时间
 SELECT NOW();
@@ -244,8 +247,9 @@ SELECT DATEDIFF(MAX(hiredate),MIN(hiredate)) FROM employees;
 SELECT COUNT(departme nt_id) FROM employees WHERE department_id = 90 ;
 SELECT COUNT(*) FROM employees WHERE department_id = 90 ;
 
-
-
+#6 其他函数
+#1 password('字符') md5(‘字符') 返回两种形式的字符加密形式
+SELECT PASSWORD('周福成');
 
 
 
